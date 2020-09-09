@@ -2,6 +2,7 @@ body {
   background-color: #102542;
   text-align: center;
   color: white;
+  font-family: 'Open Sans', sans-serif;
 }
 
 input {
@@ -10,13 +11,11 @@ input {
   height: 25px;
 }
 
-
-
 .lomake {
   margin-top: 100px;
   background-color: #F87060;
   display: inline-block;
   width: 400px;
-  height: 750px;
+  height: 780px;
   border-radius: 15px;
 }
