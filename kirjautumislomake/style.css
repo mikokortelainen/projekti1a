@@ -1,0 +1,9 @@
+body {
+  background-color: #102542;
+  text-align: center;
+  color: white;
+}
+
+.lomake {
+  display: inline-block;
+}
