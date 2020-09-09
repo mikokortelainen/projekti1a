@@ -16,6 +16,11 @@ input {
   background-color: #F87060;
   display: inline-block;
   width: 400px;
-  height: 780px;
+  height: 800px;
   border-radius: 15px;
+}
+
+#laheta {
+  width: 100px;
+  height: 45px;
 }
