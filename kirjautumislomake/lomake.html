@@ -10,15 +10,15 @@
 
 <form name ="kysely" class="lomake" action="valmis.html" onsubmit="return validateForm()">
   <p>Nimi:</p>
-<input type="text" name="nimi" value="">
+<input type="text" name="nimi" value="" required>
   <p>Sukunimi:</p>
-<input type="text" name="sukunimi" value="">
+<input type="text" name="sukunimi" value="" required>
 
   <p>Tykkäätkö videopeleistä?</p>
-  <input type="radio" id="kyllas" name="videopelit" value="">
+  <input type="radio" id="kyllas" name="videopelit" value="" required>
   <label for="kyllä">Kyllä</label><br>
 
-  <input type="radio" id="en" name="videopelit" value="">
+  <input type="radio" id="en" name="videopelit" value="" required>
   <label for="en">En</label><br>
 
 
@@ -47,10 +47,7 @@
 <p>Anna palautetta:</p>
 <textarea name="lisapalaute" cols="45" rows="10"></textarea> <br>
 
-
-  <input type="submit">
-
-
+<input type="submit">
 
 </form>
 

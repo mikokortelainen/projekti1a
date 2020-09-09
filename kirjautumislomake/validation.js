@@ -1,7 +1,7 @@
 function validateForm() {
   var a = document.forms["kysely"]["nimi"].value;
   var b = document.forms["kysely"]["sukunimi"].value;
-  var f = document.forms["kysely"]["lisapalaute"].value;
+  var c = document.forms["kysely"]["lisapalaute"].value;
 
 
 
@@ -9,19 +9,19 @@ function validateForm() {
 
   if (a==null || a=="")
  {
-    alert("1 Kenttä ei saa olla tyhjä.");
+    alert("Kirjoita etunimesi.");
     return false;
   }
 
   if (b==null || b=="")
  {
-    alert("2 Kenttä ei saa olla tyhjä.");
+    alert("Kirjoita sukunimesi");
     return false;
   }
 
-  if (f==null || f=="")
+  if (c==null || c=="")
  {
-    alert("6 Kenttä ei saa olla tyhjä.");
+    alert("Muista kirjoittaa lisäpalaute");
     return false;
   }
 }
