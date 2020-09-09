@@ -8,21 +8,22 @@
   </head>
   <body>
 
-<form name ="kysely" class="lomake" action="valmis.html" onsubmit="return validateForm()">
+<form name ="kysely" class="lomake" action="kiitos.html" onsubmit="return validateForm()">
   <p>Nimi:</p>
-<input type="text" name="nimi" value="" required>
+  <input type="text" name="nimi" value="">
   <p>Sukunimi:</p>
-<input type="text" name="sukunimi" value="" required>
+  <input type="text" name="sukunimi" value="">
 
-  <p>Tykkäätkö videopeleistä?</p>
-  <input type="radio" id="kyllas" name="videopelit" value="" required>
+
+<p>Tykkäätkö videopeleistä?</p>
+  <input type="radio" id="kyllas" name="videopelit" value="" >
   <label for="kyllä">Kyllä</label><br>
 
-  <input type="radio" id="en" name="videopelit" value="" required>
+  <input type="radio" id="en" name="videopelit" value="" >
   <label for="en">En</label><br>
 
 
-  <p>Onko tämä sivu hieno?</p>
+<p>Onko tämä sivu hieno?</p>
   <input type="checkbox" name="onkohieno" value="">
   <label for="todella">Todella hieno!</label> <br>
 
@@ -33,21 +34,14 @@
   <label for="jep">Jep!</label>
 
 
-  <p>Ikä:</p>
-  <select name="ikasi">
-    <option value="1015">10-15</option>
-    <option value="1625">16-25</option>
-    <option value="2635">26-35</option>
-    <option value="3650">36-50</option>
-    <option value="5170">51-70</option>
-    <option value="7199">71-99</option>
-    <option value="100">100+</option>
-  </select> <br>
+<p>Syntymävuotesi:</p>
+  <input type="number" name="ika" value="">
+  <label for="ika"></label>
 
 <p>Anna palautetta:</p>
-<textarea name="lisapalaute" cols="45" rows="10"></textarea> <br>
+  <textarea name="lisapalaute" cols="45" rows="10"></textarea> <br>
 
-<input type="submit">
+  <input type="submit">
 
 </form>
 
