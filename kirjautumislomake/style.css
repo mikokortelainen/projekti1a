@@ -24,3 +24,7 @@ input {
   width: 100px;
   height: 45px;
 }
+
+img {
+  text-align: center;
+}

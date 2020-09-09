@@ -1,4 +1,4 @@
-function validateForm() {
+function lomakeTarkistus() {
 
 
   var a = document.forms["kysely"]["nimi"].value;
@@ -20,7 +20,7 @@ function validateForm() {
     return false;
   }
 
-  if (d < 1917)
+  if (d < 1900)
  {
     alert("Muista kirjoittaa syntymävuotesi.");
     return false;

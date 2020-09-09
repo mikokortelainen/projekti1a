@@ -9,7 +9,7 @@
   </head>
   <body>
 
-<form name ="kysely" class="lomake" action="kiitos.html" onsubmit="return validateForm()">
+<form name ="kysely" class="lomake" action="kiitos.html" onsubmit="return lomakeTarkistus()">
   <p>Nimi:</p>
   <input type="text" name="nimi" value="">
   <p>Sukunimi:</p>
@@ -17,6 +17,7 @@
 
 
 <p>Tykkäätkö videopeleistä?</p>
+
   <input type="radio" id="kyllas" name="videopelit" value="" >
   <label for="kyllä">Kyllä</label><br>
 
@@ -26,7 +27,7 @@
 
 <p>Onko tämä sivu hieno?</p>
   <input type="checkbox" name="onkohieno" value="">
-  <label for="todella">Todella hieno!</label> <br>
+  <label for="todella">Hieno!</label> <br>
 
   <input type="checkbox" name="onkohieno" value="">
   <label for="kylla">Kyllä!</label> <br>

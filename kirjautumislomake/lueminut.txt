@@ -1,0 +1,20 @@
+
+
+
+
+lomake.html
+
+Sisältää pääsivun jossa on lomakkeen lähdekoodi.
+
+---
+
+style.css
+
+Sisältää pääsivun eli lomake.html tyylitystiedot.
+värit, nappien koot jne.
+
+---
+
+validation.js
+
+Sisältää javascript koodin joka tarkistaa että tekstikentissä on tekstiä.
